@@ -72,3 +72,18 @@ p {
     height: 500px;
     margin-left: 230px;
 }
+
+
+/* Sponsor Section CSS */
+.sponsorSection {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsor {
+    text-align: center;
+    width: 542px;
+    margin-left: 32%;
+    margin-top: 50px;
+}
