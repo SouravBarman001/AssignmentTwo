@@ -97,19 +97,92 @@ p {
 
 .secondSection {
     display: flex;
-    gap: 30px;
     align-items: center;
+    padding-left: 50px;
+    padding-right: 90px;
 }
 
 .secondSectionGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 70px;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    gap: 15px;
+    padding: 50px;
+}
+
+.secondSectionGrid img {
+    height: 342px;
+    width: 342px;
+}
+
+
+
+/* CSS for third section */
+.sideBorder {
+    width: 8px;
+    height: 106px;
+    background: #FF900E;
 
 }
+
+.thirdSection {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 70px;
+    gap: 20px;
+
+}
+
+.sectionThreeContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectionThreeContent h2 {
+
+    width: 468px;
+    height: 106px;
+}
+
+.sectionThreeContent p {
+    width: 524px;
+    height: 78px;
+}
+
+
+.row {
+    width: 570px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.rowContent {
+    padding: 35px;
+}
+
+.thirdSection img {
+    width: 700px;
+    height: 982px;
+    margin-left: 100px;
+}
+
+.ExperienceButton {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.EButton {
+    margin-top: -120px;
+    text-align: center;
+    margin-left: 120px;
+}
+
 
 
 /* CSS for footer */
